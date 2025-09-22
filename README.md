@@ -1,6 +1,6 @@
 # 👨‍💻 Mini Project – Next.js + TypeScript + Tailwind
 
-Application developed as training for the **Front-End git **, using modern technologies from the **React/Next.js** ecosystem with a focus on **best practices, responsiveness, and API integration**.
+Application developed as training for the **Front-End**, using modern technologies from the **React/Next.js** ecosystem with a focus on **best practices, responsiveness, and API integration**.
 
 ---
 
