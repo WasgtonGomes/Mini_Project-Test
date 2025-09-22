@@ -41,6 +41,6 @@ Acesse em: http://localhost:3000
 
 - Projeto criado para fins de estudo e simulação de teste prático de seleção.
 
-- Sem uso de IA no código, conforme regras do edital.
+- Sem uso de IA no código.
 
 - Apenas documentação oficial das tecnologias foi utilizada como referência.
