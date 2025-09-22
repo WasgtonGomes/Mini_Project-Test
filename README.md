@@ -71,4 +71,4 @@ npm run dev
 
 - 🤖 Sem uso de IA no código.
 
--✅ Apenas documentação oficial das tecnologias foi utilizada como referência
+- ✅ Apenas documentação oficial das tecnologias foi utilizada como referência
