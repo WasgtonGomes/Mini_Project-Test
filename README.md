@@ -1,46 +1,60 @@
 # 👨‍💻 Mini Projeto – Next.js + TypeScript + Tailwind
 
-Aplicação desenvolvida para treino do **teste prático de Front-End**, utilizando tecnologias modernas do ecossistema React/Next.js.
+Aplicação desenvolvida como treino para o **teste prático de Front-End**, utilizando tecnologias modernas do ecossistema **React/Next.js** com foco em **boas práticas, responsividade e integração com API**.
+
+---
 
 ## 🚀 Tecnologias utilizadas
-- [Next.js](https://nextjs.org/) (App Router)
-- [React](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
+- ⚛️ [React](https://react.dev/)  
+- ▲ [Next.js](https://nextjs.org/) (App Router)  
+- 🟦 [TypeScript](https://www.typescriptlang.org/)  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)  
+
+---
 
 ## 🎯 Funcionalidades
-- Consumo de API REST pública (**JSONPlaceholder**)
-- Exibição de lista dinâmica de usuários
-- Formulário controlado para adicionar novos usuários
-- Estilização responsiva com Tailwind
-- Versionamento com Git e repositório no GitHub
+- 🔗 Consumo de API REST pública (**JSONPlaceholder**)  
+- 📋 Exibição de lista dinâmica de usuários  
+- 📝 Formulário controlado para adicionar novos usuários  
+- 📱 Estilização responsiva com Tailwind CSS  
+- 💾 Versionamento com **Git** e hospedagem no **GitHub**  
 
-## 📂 Estrutura principal
+---
+
+## 📂 Estrutura do projeto
+
+Abaixo está a organização principal dos diretórios e arquivos deste repositório:
+
+- 📁 **app/** → Páginas e componentes principais  
+  - 📄 **page.tsx** → Página inicial (lista de usuários + formulário)  
+
+- 🖼️ **public/** → Arquivos estáticos (imagens, ícones, etc.)  
+
+- 🎨 **styles/** → Estilos globais do Tailwind CSS  
+
+- ⚙️ **package.json** → Configuração do projeto e dependências  
+
+- 📝 **README.md** → Documentação do projeto  
+
+```sh
 mini-projeto/
-├─ app/
-│ └─ page.tsx # Página principal (lista + formulário)
+├─ app/ # Páginas e componentes principais
+│ └─ page.tsx # Página inicial (lista + formulário)
 ├─ public/ # Arquivos estáticos (imagens, ícones, etc.)
 ├─ styles/ # Estilos globais (Tailwind)
-├─ package.json # Configuração do projeto
-└─ README.md
+├─ package.json # Configuração do projeto e dependências
+└─ README.md # Documentação
+```
 
+---
 
 ## ⚙️ Como rodar o projeto
 Clone este repositório e execute os comandos abaixo:
 
-```bash
+```sh
 # Instalar dependências
 npm install
 
 # Rodar em modo de desenvolvimento
-npm run dev 
-
-Acesse em: http://localhost:3000
-
-## 📌 Observações importantes
-
-- Projeto criado para fins de estudo e simulação de teste prático de seleção.
-
-- Sem uso de IA no código.
-
-- Apenas documentação oficial das tecnologias foi utilizada como referência.
+npm run dev
+```
