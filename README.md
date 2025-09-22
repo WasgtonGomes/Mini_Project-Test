@@ -65,7 +65,7 @@ npm run dev
 ## Acesse em: http://localhost:3000
 
 
-##📌 Observações
+## 📌 Observações
 
 - 📚 Projeto criado para fins de estudo e simulação de teste prático de seleção
 
