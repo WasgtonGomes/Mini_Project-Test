@@ -1,74 +1,71 @@
-# 👨‍💻 Mini Projeto – Next.js + TypeScript + Tailwind
+# 👨‍💻 Mini Project – Next.js + TypeScript + Tailwind
 
-Aplicação desenvolvida como treino para o **teste prático de Front-End**, utilizando tecnologias modernas do ecossistema **React/Next.js** com foco em **boas práticas, responsividade e integração com API**.
+Application developed as training for the **Front-End Practical Test**, using modern technologies from the **React/Next.js** ecosystem with a focus on **best practices, responsiveness, and API integration**.
 
 ---
-
-## 🚀 Tecnologias utilizadas
+## 🚀 Technologies used
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=w hite)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-## 🎯 Funcionalidades
-- 🔗 Consumo de API REST pública (**JSONPlaceholder**)  
-- 📋 Exibição de lista dinâmica de usuários  
-- 📝 Formulário controlado para adicionar novos usuários  
-- 📱 Estilização responsiva com Tailwind CSS  
-- 💾 Versionamento com **Git** e hospedagem no **GitHub**  
+## 🎯 Features
+- 🔗 Public REST API consumption (**JSONPlaceholder**)
+- 📋 Dynamic user list display
+- 📝 Controlled form for adding new users
+- 📱 Responsive styling with Tailwind CSS
+- 💾 Versioning with **Git** and hosting on **GitHub**
 
 ---
 
-## 📂 Estrutura do projeto
+## 📂 Project Structure
 
-Abaixo está a organização principal dos diretórios e arquivos deste repositório:
-
+Below is the main organization of the directories and files in this repository:
 
 ```sh
-mini-projeto/
-├─ app/ # Páginas e componentes principais
-│ └─ page.tsx # Página inicial (lista + formulário)
-├─ public/ # Arquivos estáticos (imagens, ícones, etc.)
-├─ styles/ # Estilos globais (Tailwind)
-├─ package.json # Configuração do projeto e dependências
-└─ README.md # Documentação
+mini-project/
+├─ app/ # Main pages and components
+│ └─ page.tsx # Home page (list + form)
+├─ public/ # Static files (images, icons, etc.)
+├─ styles/ # Global styles (Tailwind)
+├─ package.json # Project configuration and Dependencies
+└─ README.md # Documentation
 ```
 ---
 
-## 🖼️ Demonstração
+## 🖼️ Demo
 
-### Tela inicial com lista de usuários
-<img src="./public/Capturar01.PNG" alt="Print da tela inicial" width="700"/>
+### Home screen with user list
+<img src="./public/Capturar01.PNG" alt="Home screen printout" width="700"/>
 
-### Formulário para adicionar usuário
-<img src="./public/Capturar02.PNG" alt="Print do formulário" width="700"/>
+### Form to add user
+<img src="./public/Capturar02.PNG" alt="Form printout" width="700"/>
 
-### Lista atualizada após inserir usuário
-<img src="./public/Capturar03.PNG" alt="Print da lista atualizada" width="700"/>
+### List updated after adding user
+<img src="./public/Capturar03.PNG" alt="Updated list printout" width="700"/>
 
 ---
 
-## ⚙️ Como rodar o projeto
-Clone este repositório e execute os comandos abaixo:
+## ⚙️ How to run the project
+Clone this repository and run the commands below:
 
 ```sh
-# Instalar dependências
+# Install dependencies
 npm install
 
-# Rodar em modo de desenvolvimento
+# Run in development mode
 npm run dev
 ```
-## Acesse em: http://localhost:3000
+## Access at: http://localhost:3000
 
+## 📌 Notes
 
-## 📌 Observações
+- 📚 Project created for study purposes and simulation of a practical selection test
 
-- 📚 Projeto criado para fins de estudo e simulação de teste prático de seleção
+- 🤖 No use of AI in the code.
 
-- 🤖 Sem uso de IA no código.
-
-- ✅ Apenas documentação oficial das tecnologias foi utilizada como referência
+- ✅ Only official documentation of the technologies was used as a referencegit 
