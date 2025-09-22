@@ -1,5 +1,93 @@
-import Image from "next/image";
+"use client";
 
+import { useEffect, useState } from "react";
+
+type User = {
+  id: number;
+  name: string;
+  email: string;
+};
+
+export default function Home() {
+  const [users, setUsers] = useState<User[]>([]);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  // Buscar lista da API
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((data: User[]) => setUsers(data));
+  }, []);
+
+  // Adicionar usuário fictício
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const newUser: User = {
+      id: users.length + 1,
+      name,
+      email,
+    };
+    setUsers([...users, newUser]);
+    setName("");
+    setEmail("");
+  }
+
+  return (
+    <main className="max-w-3xl mx-auto p-6">
+      <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">
+        👨‍💻 Mini Projeto – Teste
+      </h1>
+
+      {/* Lista */}
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-3">Lista de Usuários</h2>
+        <ul className="space-y-2">
+          {users.map((u) => (
+            <li
+              key={u.id}
+              className="border rounded-xl p-4 shadow-sm hover:shadow transition"
+            >
+              <p className="font-medium">{u.name}</p>
+              <p className="text-sm text-gray-600">{u.email}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* Formulário */}
+      <section>
+        <h2 className="text-xl font-semibold mb-3">Adicionar Usuário</h2>
+        <form onSubmit={handleSubmit} className="space-y-3">
+          <input
+            type="text"
+            placeholder="Nome"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="w-full border rounded-lg px-3 py-2"
+            required
+          />
+          <input
+            type="email"
+            placeholder="E-mail"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full border rounded-lg px-3 py-2"
+            required
+          />
+          <button
+            type="submit"
+            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+          >
+            Adicionar
+          </button>
+        </form>
+      </section>
+    </main>
+  );
+}
+
+/*
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -100,4 +188,4 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+}*/

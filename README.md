@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Mini Projeto – Next.js + TypeScript + Tailwind
 
-## Getting Started
+Aplicação desenvolvida para treino do **teste prático de Front-End**, utilizando tecnologias modernas do ecossistema React/Next.js.
 
-First, run the development server:
+## 🚀 Tecnologias utilizadas
+- [Next.js](https://nextjs.org/) (App Router)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 🎯 Funcionalidades
+- Consumo de API REST pública (**JSONPlaceholder**)
+- Exibição de lista dinâmica de usuários
+- Formulário controlado para adicionar novos usuários
+- Estilização responsiva com Tailwind
+- Versionamento com Git e repositório no GitHub
+
+## 📂 Estrutura principal
+mini-projeto/
+├─ app/
+│ └─ page.tsx # Página principal (lista + formulário)
+├─ public/ # Arquivos estáticos (imagens, ícones, etc.)
+├─ styles/ # Estilos globais (Tailwind)
+├─ package.json # Configuração do projeto
+└─ README.md
+
+
+## ⚙️ Como rodar o projeto
+Clone este repositório e execute os comandos abaixo:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Instalar dependências
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Rodar em modo de desenvolvimento
+npm run dev 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Acesse em: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Observações importantes
 
-## Learn More
+- Projeto criado para fins de estudo e simulação de teste prático de seleção.
 
-To learn more about Next.js, take a look at the following resources:
+- Sem uso de IA no código, conforme regras do edital.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Apenas documentação oficial das tecnologias foi utilizada como referência.
