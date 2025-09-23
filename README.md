@@ -2,7 +2,7 @@
 
 Application developed as training for the **Front-End**, using modern technologies from the **React/Next.js** ecosystem with a focus on **best practices, responsiveness, and API integration**.
 
----
+--- 
 
 ## 🚀 Tecnologias utilizadas
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
